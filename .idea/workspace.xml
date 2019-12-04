@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bacfde8-7fcb-414f-8d2a-443ae5ddd001" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/year2019/Day4.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/year2019/AdventOfCode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/year2019/AdventOfCode.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/year2019/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/year2019/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day1input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/year2019/Day4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/year2019/Day4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/year2019/Day4Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/year2019/Day4Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/year2019/Day4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/year2019/Day4.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575407833252</updated>
       <workItem from="1575407837990" duration="2997000" />
-      <workItem from="1575448343810" duration="2330000" />
+      <workItem from="1575448343810" duration="4651000" />
     </task>
     <servers />
   </component>

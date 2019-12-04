@@ -1,20 +1,20 @@
 package year2019
 
-import kotlin.math.log10
+import java.util.stream.IntStream
+import kotlin.time.measureTimedValue
 
-fun main() = Day4.part2()
+fun main() = generateSequence {
+        measureTimedValue { Day4.part1() to Day4.part2() }
+    }.take(1000)
+    .minBy { it.duration }
+    .let(::println)
 
 object Day4 {
     private val lowerbound = 145852
     private val upperbound = 616942
 
-    fun part1(){
-        lowerbound.rangeTo(upperbound).filter(::meetsCriteria).count().let(::println)
-    }
-
-    fun part2(){
-        lowerbound.rangeTo(upperbound).filter(::meetsCriteria2).count().let(::println)
-    }
+    fun part1() = IntStream.range(lowerbound, upperbound).parallel().filter(::meetsCriteria).count()
+    fun part2() = IntStream.range(lowerbound, upperbound).parallel().filter(::meetsCriteria2).count()
 
     private fun meetsCriteria(input: Int) : Boolean{
         var hasDouble = false
