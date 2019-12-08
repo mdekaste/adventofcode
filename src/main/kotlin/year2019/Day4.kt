@@ -1,12 +1,17 @@
 package year2019
 
+import java.util.stream.Collectors
 import java.util.stream.IntStream
+import kotlin.time.ExperimentalTime
 import kotlin.time.measureTimedValue
 
+@ExperimentalTime
 fun main() = generateSequence {
         measureTimedValue { Day4.part1() to Day4.part2() }
-    }.take(1000)
-    .minBy { it.duration }
+    }.take(10000)
+    .toList()
+    .stream()
+    .collect(Collectors.summarizingDouble { it.duration.inSeconds })
     .let(::println)
 
 object Day4 {
