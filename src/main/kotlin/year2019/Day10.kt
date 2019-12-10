@@ -20,18 +20,15 @@ object Day10 : AdventOfCode<String>(
        angleMap = asteroids.map { angleMap(it) }.maxBy { it.size }!!
     }
 
-    override fun part1(): Any? {
-        return angleMap.keys.size
-    }
+    override fun part1() = angleMap.size
 
-    override fun part2(): Any? {
-        return angleMap.flatMap{(angle, points) -> points.withIndex().map{ (index, point) -> IndexedAnglePoint(index, angle, point)}}
+    override fun part2() = angleMap.flatMap{(angle, points) -> indexedAngleList(angle, points)}
             .sorted()
             .drop(199)
             .first()
-            .point
-            .let{ it.x * 100 + it.y}
-    }
+            .point.let{ it.x * 100 + it.y}
+
+    private fun indexedAngleList(angle: Double, points: List<Point>) = points.withIndex().map { (index, point) -> IndexedAnglePoint(index, angle, point) }
 
     private fun angleMap(point: Point) = asteroids.filterNot(point::equals).groupBy { getAngle(point, it) }
 
@@ -39,8 +36,8 @@ object Day10 : AdventOfCode<String>(
         val xDif = other.x - origin.x
         val yDif = other.y - origin.y
 
-        val absXDif = Math.abs(xDif)
-        val absYDif = Math.abs(yDif)
+        val absXDif = abs(xDif)
+        val absYDif = abs(yDif)
 
         val gcd = when{
             absXDif == 0 -> absYDif
@@ -51,12 +48,13 @@ object Day10 : AdventOfCode<String>(
         return -Math.atan2(xDif / gcd, yDif / gcd)
     }
 
-    private tailrec fun gcd(a: Int, b: Int) : Int = when{
-            b == 0 -> a
-            else -> gcd(b, a.rem(b))
+    private tailrec fun gcd(a: Int, b: Int) : Int = when (b) {
+        0 -> a
+        else -> gcd(b, a.rem(b))
     }
 
     private data class Point(val x : Int, val y : Int )
+
     private data class IndexedAnglePoint(val index: Int, val angle: Double, val point: Point) : Comparable<IndexedAnglePoint>{
         companion object {
             private val comparator = compareBy<IndexedAnglePoint>({it.index},{it.angle})
