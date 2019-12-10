@@ -13,18 +13,22 @@ abstract class AdventOfCode<T>(
 
     fun solve(){
         println("--- Year $year Day $day: $description ---")
+        preloadData()
         println(part1())
         println(part2())
         generateSequence {
             measureTimeMillis {
+                preloadData()
                 part1()
                 part2()
             }
-        }.take(1000)
+        }.take(100)
             .average()
             .let{println("average time to calculate: $it ms")}
     }
+    protected open fun preloadData(){
 
+    }
     abstract fun part1() : Any?
     abstract fun part2() : Any?
 }

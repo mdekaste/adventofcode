@@ -2,29 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bacfde8-7fcb-414f-8d2a-443ae5ddd001" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_3_61.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_61.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018day1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018day2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019day5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019day6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019day8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day23input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/AdventOfCode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/year2018/Day1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/year2018/Day2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/year2018/Day23.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/year2018/Day3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/year2019/Day5.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/year2019/Day6.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/year2019/Day8.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019day10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/year2019/Day10.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/year2019/Day7.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/year2019/Day4.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/AdventOfCode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/AdventOfCode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/year2019/Day8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/year2019/Day8.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/AdventOfCode.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/AdventOfCode.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/year2019/Day8$$special$$inlined$groupingBy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/year2019/Day8$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/year2019/Day8$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/year2019/Day8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/year2019/Day8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/year2019/Day8Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/year2019/Day8Kt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,19 +24,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2019/Day6.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2019/Day8.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2019/Day8.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2019/Day10.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="391">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="e#18#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Math.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="515" column="25" selection-start-line="515" selection-start-column="25" selection-end-line="515" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Maps.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2019day10">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -56,61 +74,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="1275" column="37" selection-start-line="1275" selection-start-column="37" selection-end-line="1275" selection-end-column="37" />
+            <state relative-caret-position="284">
+              <caret line="712" selection-start-line="712" selection-end-line="712" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Character.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="6599" column="22" selection-start-line="6599" selection-start-column="22" selection-end-line="6599" selection-end-column="22" />
+            <state relative-caret-position="291">
+              <caret line="164" selection-start-line="164" selection-end-line="164" />
               <folding>
-                <element signature="e#233921#233922#0" expanded="true" />
-                <element signature="e#233965#233966#0" expanded="true" />
-                <element signature="e#236253#236254#0" expanded="true" />
-                <element signature="e#236327#236328#0" expanded="true" />
-                <element signature="e#238047#238048#0" expanded="true" />
-                <element signature="e#238094#238095#0" expanded="true" />
+                <element signature="e#6283#6284#0" expanded="true" />
+                <element signature="e#6351#6352#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/CollectionsH.kt">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/AbstractList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019day8">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14849" selection-start-column="14849" selection-end-column="14849" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Char.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Maps.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+            <state relative-caret-position="291">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
@@ -118,17 +105,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/AdventOfCode.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="374">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/SafeVarargs.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/AbstractCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+            <state relative-caret-position="714">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
@@ -139,8 +126,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Kotlin Object" />
         <option value="Kotlin File" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -149,6 +136,7 @@
       <find>ZRG</find>
       <find>QWS</find>
       <find>opModes</find>
+      <find>ø®ø</find>
     </findStrings>
     <replaceStrings>
       <replace>it</replace>
@@ -171,12 +159,14 @@
         <option value="$PROJECT_DIR$/2019day6" />
         <option value="$PROJECT_DIR$/src/main/kotlin/year2018/Day1.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/year2019/Day6.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/AdventOfCode.kt" />
         <option value="$PROJECT_DIR$/2019day5" />
         <option value="$PROJECT_DIR$/src/main/kotlin/year2019/Day5.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/year2019/Day7.kt" />
         <option value="$PROJECT_DIR$/2019day8" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/year2019/Day7.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/year2019/Day8.kt" />
+        <option value="$PROJECT_DIR$/2019day10" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/AdventOfCode.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/year2019/Day10.kt" />
       </list>
     </option>
   </component>
@@ -197,10 +187,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="556" />
-    <option name="y" value="334" />
+    <option name="x" value="727" />
+    <option name="y" value="653" />
     <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="height" value="614" />
   </component>
   <component name="ProjectId" id="1UVip2LCY8Kb3ig67gmHQsHLXMU" />
   <component name="ProjectView">
@@ -259,14 +249,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575804104577" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576012163013" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -274,7 +264,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -296,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.year2019.Day8Kt">
+  <component name="RunManager" selected="Kotlin.year2019.Day10Kt">
     <configuration name="year2018.Day1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <option name="VM_PARAMETERS" />
@@ -310,14 +301,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="year2018.Day2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="year2019.Day10Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="year2018.Day2Kt" />
+      <option name="MAIN_CLASS_NAME" value="year2019.Day10Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -364,11 +355,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.year2019.Day10Kt" />
         <item itemvalue="Kotlin.year2019.Day8Kt" />
         <item itemvalue="Kotlin.year2019.Day5Kt" />
         <item itemvalue="Kotlin.year2019.Day6Kt" />
         <item itemvalue="Kotlin.year2018.Day1Kt" />
-        <item itemvalue="Kotlin.year2018.Day2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -388,19 +379,20 @@
       <workItem from="1575472604067" duration="12292000" />
       <workItem from="1575637374264" duration="21261000" />
       <workItem from="1575719889242" duration="12338000" />
-      <workItem from="1575801532262" duration="2514000" />
+      <workItem from="1575801532262" duration="16386000" />
+      <workItem from="1575999580011" duration="12559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50034000" />
+    <option name="totallyTimeSpent" value="76465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816403" visible="true" weight="0.13831478" />
-      <window_info id="Structure" order="1" sideWeight="0.501836" side_tool="true" visible="true" weight="0.13831478" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4961998" visible="true" weight="0.1399046" />
+      <window_info id="Structure" order="1" sideWeight="0.5038002" side_tool="true" visible="true" weight="0.1399046" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -408,24 +400,24 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7476153" visible="true" weight="0.3632112" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48608902" weight="0.2985191" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7444356" visible="true" weight="0.28215122" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48449922" weight="0.2985191" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.25238475" side_tool="true" visible="true" weight="0.3632112" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.47694755" weight="0.32969603" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49960256" weight="0.32969603" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.2555644" side_tool="true" visible="true" weight="0.28215122" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.47575516" weight="0.32969603" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.081478536" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.08108108" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -494,9 +486,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/year2019/Day8.kt</url>
-          <line>3</line>
+          <line>4</line>
           <properties />
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/year2019/Day10.kt</url>
+          <line>35</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/year2019/Day10.kt</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -592,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2018/Day2.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/text/StringsJVM.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3162">
@@ -666,24 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2018/Day23.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2019day6">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2018/Day1.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -708,65 +693,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2019/Day5.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
-          <folding>
-            <element signature="e#17#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6953">
-          <caret line="447" selection-start-line="447" selection-end-line="447" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2019day5">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2543" selection-start-column="2543" selection-end-column="2543" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2018/Day3.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="58" selection-start-column="2" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2019/Day4.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#18#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2019/Day6.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Maps.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/AdventOfCode.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -813,17 +743,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2018/Day23.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="1275" column="37" selection-start-line="1275" selection-start-column="37" selection-end-line="1275" selection-end-column="37" />
+        <state relative-caret-position="357">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2018/Day3.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="58" selection-start-column="2" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2018/Day2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2019/Day5.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding>
+            <element signature="e#17#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2019/Day7.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib.jar!/kotlin/collections/CollectionsKt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7871">
+          <caret line="463" column="60" selection-start-line="463" selection-start-column="60" selection-end-line="463" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2019/Day6.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2019/Day4.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#18#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Maps.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4930">
+          <caret line="293" column="28" selection-start-line="293" selection-start-column="28" selection-end-line="293" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2018/Day1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2019/Day8.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019day10">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Maps.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="712" selection-start-line="712" selection-end-line="712" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="515" column="25" selection-start-line="515" selection-start-column="25" selection-end-line="515" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/AdventOfCode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/year2019/Day10.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#18#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
